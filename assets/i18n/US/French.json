@@ -83,7 +83,8 @@
     "delcancelsubtitle":"Votre dossier de projet est sécurisé :)",
     "delprojokey":"D'accord",
     "deldeletetitle":"Projet supprimé",
-    "name_valid":"Entrez le nom du projet"
+    "name_valid":"Entrez le nom du projet",
+    "org_name_label":"Fournissez un nom pour votre projet"
   },
   "tree_view": {
     "title": "de base",
@@ -239,7 +240,17 @@
     "conductance of glass":"Conductance du Verre",
     "shading coefficient":"Coefficient d'Ombrage",
     "visible transmission":"Transmission Visible",
-    "type of glass":"Type de Verre"
+    "type of glass":"Type de Verre",
+    "south_wall_tooltip":"Sélectionnez un type de mur pour le mur du sud",
+    "roof_tooltip":"Sélectionnez un type de toit pour la construction de toit",
+    "north_wall_tooltip":"Sélectionnez un type de mur pour le mur du nord",
+    "floor_exhibition_tooltip":"Sélectionnez un type de surface de plancher",
+    "east_wall_tooltip":"Sélectionnez un type de mur pour le mur du est",
+    "wall_quest_tooltip":"Sélectionnez un type de mur pour le mur du ouest",
+    "over_hang_tooltip":"Éditez le pare soleil valeur",
+    "skylight_type_tooltip":"Sélectionnez une option pour la puits de lumière",
+    "fp_tooltip":"Modifiez la valeur FP en fonction de vos besoins",
+    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière"
     
   },
   "create_project": {
@@ -260,7 +271,17 @@
     "floor_height": "Hauteur de I'Etage",
     "dimensions": "Dimensions",
     "area_by_floor": "Surface au Sol",
-    "deg": "deg"
+    "deg": "deg",
+    "building_name_tooltip":"Fournissez un nom pour votre bâtiment",
+    "building_adress_tooltip":"Fournissez votre adresse de bâtiment",
+    "building_type_tooltip":"Choisissez un type de bâtiment",
+    "floor_count_tooltip":"Préciser le nombre d'étages",
+    "building_location_tooltip":"Fournir l'emplacement de votre bâtiment",
+    "packaged_area_tooltip":"Fournir de l'espace",
+    "orientation_tooltip":"Précisez l'orientation du bâtiment",
+    "floor_height_tooltip":"Précisez la hauteur du plancher",
+    "dimensions_tooltip":"Précisez les dimensions",
+    "area_by_floor_tooltip":"Spécifiez la surface de plancher"
   },
   "HVACSystem_page": {
     "header": "Système CVCA",
@@ -271,7 +292,9 @@
     "hvacSysImg2": "assets/SplitSystem.jpg",
     "hvacSysImg3": "assets/ResidentialSystem.jpg",
     "hvacSysImg4": "assets/FancoilSystem.jpg",
-    "hvacSysImg5": "assets/VavSystem.jpg"
+    "hvacSysImg5": "assets/VavSystem.jpg",
+    "cooling_point_tooltip":"Préciser la température du consigne de refroidissement",
+    "heating_point_tooltip":"Préciser la température du point de consigne de chauffage"
   },
   "welcome_page": {
     "description": "Cet outil CLIP vous permet d'étudier et d'évaluer la performance énergétique de votre projet de construction ainsi que sa conformité à la Réglementation Thermique des Bâtiments Neufs en Tunisie.",
@@ -305,7 +328,9 @@
     "area_percent": "somme pourcentage superficie",
     "title2": "Chauffage d'Eau Domestique",
     "title3": "Type d'Appareil de Chauffage",
-    "air_renewal": "*Renouvellement d'Air par Heure"
+    "air_renewal": "*Renouvellement d'Air par Heure",
+    "area_percent_tooltip":"Spécifiez la superficie totale",
+    "title3_tooltip":"Sélectionnez une option dans le type de chauffage"
   },
   "newproject": {
     "savencont": "Sauvegarder et Continuer",
@@ -322,7 +347,15 @@
     "name": "Nom d'utilisateur",
     "email": "Email",
     "status": "Statut",
-    "isadmin": "Est-ce que l'administrateur"
+    "isadmin": "Est-ce que l'administrateur",
+    "add_user":"Ajouter un utilisateur"
+  },
+  "add_Users":{
+    "header":"Ajouter un nouvel utilisateur",
+    "role":"Rôle d'utilisateur",
+    "create":"Créer",
+    "user":"Utilisateur",
+    "admin":"Admin"
   },
   "page_top": {
     "profile": "Profil",
@@ -332,36 +365,38 @@
   "addNewProject": {
     "BuildingTypes": {
       "Villa": "Villa",
-      "Appartment": "Appartement",
-      "Private Offices": "Bureaux Prives",
-      "Public Offices": "Bureaux Publiques",
-      "Hotels, 3 Stars": "Hôtel, 3 Etoiles",
-      "Hotels, 4 Stars": "Hôtel, 4 Etoiles",
-      "Hotels, 5 Stars": "Hôtel, 5 Etoiles",
-      "Private Hospitals": "Hôpital Prive",
-      "Public Hospitals": "Hôpital Publique"
+      "Apartment": "Appartement",
+      "Office: Private": "Bureaux Prives",
+      "Office: Public": "Bureaux Publiques",
+      "hotelthreestar": "Hôtel, 3 Etoiles",
+      "Hotel: FourStar": "Hôtel, 4 Etoiles",
+      "Hotel: FiveStar": "Hôtel, 5 Etoiles",
+      "Hospital:Private": "Hôpital Prive",
+      "Hospital:Public": "Hôpital Publique",
+      "Bureaux Prives":"Bureaux Prives"
     }
   },
   "envelop": {
     "ConstructionTypes": {
-      "Wall No Insulation": "Mur Pas d’Isolation",
-      "Wall Insulation-Exterior-2cm": "Mur Isolation-Extérieure-2cm",
-      "Wall Insulation-Exterior-4cm": "Mur Isolation-Extérieure-4cm",
-      "Wall Insulation-Exterior-6cm": "Mur Isolation-Extérieure-6cm",
-      "Wall Insulation-Inside-2cm": "Mur Isolation-Intérieure-2cm",
-      "Wall Insulation-Inside-4cm": "Mur Isolation-Intérieure-4cm",
-      "Wall Insulation-Inside-6cm": "Mur Isolation-Intérieure-2cm",
-      "Wall Insulation-medium-2cm": "Mur Isolation-Milieu-2cm",
-      "Wall Insulation-medium-4cm": "Mur Isolation-Milieu-4cm",
-      "Wall Insulation-medium-6cm" : "Mur Isolation-Milieu-6cm",
+      "EWall Cons-NoInsu": "Mur Pas d’Isolation",
+      "EWall Cons-Outside-2cm": "Mur Isolation-Extérieure-2cm",
+      "EWall Cons-Outside-4cm": "Mur Isolation-Extérieure-4cm",
+      "EWall Cons-Outside-6cm": "Mur Isolation-Extérieure-6cm",
+      "EWall Cons-Middle-2cm": "Mur Isolation-Intérieure-2cm",
+      "EWall Cons-Middle-4cm": "Mur Isolation-Intérieure-4cm",
+      "EWall Cons-Middle-6cm": "Mur Isolation-Intérieure-2cm",
+      "EWall Cons-Inside-2cm": "Mur Isolation-Milieu-2cm",
+      "EWall Cons-Inside-4cm": "Mur Isolation-Milieu-4cm",
+      "EWall Cons-Inside-6cm" : "Mur Isolation-Milieu-6cm",
+      "create":"Créer",
       "Create":"Créer",
       "Polystyrene 2cm":"Polystyrène 2 cm",
       "Polystyrene 4cm":"Polystyrène 4 cm",
       "Polystyrene 6cm":"Polystyrène 6 cm",
       "Mineral wool R30":"Laine minérale R30",
-      "Earth(Sol)":"Terre (Sol)",
+      "Earth(Soil)":"Terre (Sol)",
       "HW Concrete 12":"HW Concret 12",
-      "seal connections5":"Sceau connexions 5",
+      "seal connections 5":"Sceau connexions 5",
       "Coatings 25":"Revêtements 25",
       "Interior Coating 20":"Intérieur Revêtement 20",
       "Concrete 100":"Cocnret 100",
@@ -383,33 +418,33 @@
       "Asphalt Sealant":"Scellant d'asphalte",
       "Waterproofing SP4":"Imperméabilisation SP 4",
       "Rubber Sealant":"Scellant en caoutchouc",
-      "Carpet,rug":"Tapis, tapis"
+      "Carpet,rug":"Moquette, tabis"
     },
     "RoofTypes": {
-      "Roof No Insulation": "Toit Pas d’Isolation",
-      "Roof Insulation-Exterior-2cm": "Toit Isolation-Extérieure-2cm",
-      "Roof Insulation-Exterior-4cm": "Toit Isolation-Extérieure-4cm",
-      "Roof Insulation-Exterior-6cm": "Toit Isolation-Extérieure-6cm",
-      "Roof Insulation-Inside-2cm": "Toit Isolation-Intérieure-2cm",
-      "Roof Insulation-Inside-4cm": "Toit Isolation-Intérieure-4cm",
-      "Roof Insulation-Inside-6cm": "Toit Isolation-Intérieure-6cm",
-      "Roof Insulation-medium-2cm": "Toit Isolation-Milieu-2cm",
-      "Roof Insulation-medium-4cm": "Toit Isolation-Milieu-4cm",
-      "Roof Insulation-medium-6cm" : "Toit Isolation-Milieu-6cm",
+      "Roof Cons-NoInsu": "Toit Pas d’Isolation",
+      "Roof Cons-Outside-2cm": "Toit Isolation-Extérieure-2cm",
+      "Roof Cons-Outside-4cm": "Toit Isolation-Extérieure-4cm",
+      "Roof Cons-Outside-6cm": "Toit Isolation-Extérieure-6cm",
+      "Roof Cons-Inside-2cm": "Toit Isolation-Intérieure-2cm",
+      "Roof Cons-Inside-4cm": "Toit Isolation-Intérieure-4cm",
+      "Roof Cons-Inside-6cm": "Toit Isolation-Intérieure-6cm",
+      "Roof Cons-Middle-2cm": "Toit Isolation-Milieu-2cm",
+      "Roof Cons-Middle-4cm": "Toit Isolation-Milieu-4cm",
+      "Roof Cons-Middle-6cm" : "Toit Isolation-Milieu-6cm",
       "create":"Créer"
     },
     "FloorContactCondition": {
-      "Ground": "Sol",
-      "Air conditioning": "Espace air conditionné",
-      "Non-air conditioning": "Espace non-air conditionné"
+      "ground": "Sol",
+      "condition": "Espace air conditionné",
+      "uncondition": "Espace non-air conditionné"
     },
     "GlazingTypes": {
       "Single Clear": "Simple Claire",
       "Single Bronze": "Simple Bronze",
-      "Single low-e": "Simple faible-e",
+      "Single Low-e": "Simple faible-e",
       "Double Clear": "Double Claire",
       "Double Bronze": "Double Bronze",
-      "Double low-e": "Double faible-e",
+      "Double Low-e": "Double faible-e",
       "create":"Créer",
       "No selection":"Pas de Selection"
     },
@@ -421,8 +456,8 @@
   },
   "space": {
     "WaterSystem": {
-      "Tankless Electric DHW System": "Tankless système DHW électrique",
-      "DHW gas tank system": "Réservoir systéme DHW au gaz"
+      "Tankless electric DHW system": "Tankless système DHW électrique",
+      "Tank gas-fired DHW system": "Réservoir systéme DHW au gaz"
     },
 
     "SpaceCond": {
@@ -444,11 +479,11 @@
   },
   "HVACSystem": {
     "HVACSystemTypes": {
-      "Variable Air Volume System": "Système Monobloc Volume d'Air Variable",
-      "Monozone System Direct Relax with Baseboards": "Système Monozone à Dètente Direct avec Plinthes",
+      "Packaged Variable Air Volume System": "Système Monobloc Volume d'Air Variable",
+      "Split System with Baseboard": "Système Monozone à Dètente Direct avec Plinthes",
       "Residential System" : "Système Rèsidentiel",
-      "Single Fan System": "Système Ventilateur Unitaire",
-      "Variable Air Volume Central System":"Système Central de Volume d'Air Variable"
+      "Fan Coil System": "Système Ventilateur Unitaire",
+      "Variable Air Volume Systemm":"Système Central de Volume d'Air Variable"
     }
   },
   "defaultEditDropDown":{

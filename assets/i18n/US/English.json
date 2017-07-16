@@ -83,7 +83,8 @@
     "delcancelsubtitle":"Your project file is safe :)",
     "delprojokey":"OK",
     "deldeletetitle":"Project deleted",
-    "name_valid":"Please enter the project name"
+    "name_valid":"Please enter the project name",
+    "org_name_label":"Provide a name for your project"
   },
   "tree_view": {
     "title": "basic",
@@ -205,7 +206,17 @@
     "floor_height": "Floor-to-Floor Height",
     "dimensions": "Dimensions",
     "area_by_floor": "Floor area",
-    "deg": "deg"
+    "deg": "deg",
+    "building_name_tooltip":"Provide a name for your building",
+    "building_adress_tooltip":"Provide your building address",
+    "building_type_tooltip":"Choose a type of the building",
+    "floor_count_tooltip":"Specify the number of floors",
+    "building_location_tooltip":"Provide the location for your building",
+    "packaged_area_tooltip":"Provide the area",
+    "orientation_tooltip":"Specify the orientation of the building",
+    "floor_height_tooltip":"Specify the height of the floor",
+    "dimensions_tooltip":"Specify the dimensions",
+    "area_by_floor_tooltip":"Specify the floor area"
   },
   "envelope_page": {
     "title": "Exterior Constructions",
@@ -261,7 +272,17 @@
     "conductance of glass":"Conductance of Glass",
     "shading coefficient":"Shading Coefficient",
     "visible transmission":"Visible Transmission",
-    "type of glass":"Type of Glass"
+    "type of glass":"Type of Glass",
+    "south_wall_tooltip":"Select a wall type for south wall",
+    "roof_tooltip":"Select a roof type for roof construction",
+    "north_wall_tooltip":"Select a wall type for south wall",
+    "floor_exhibition_tooltip":"Select a floor area type",
+    "east_wall_tooltip":"Select a wall type for south wall",
+    "wall_quest_tooltip":"Select a wall type for south wall",
+    "over_hang_tooltip":"Edit the over hang as your requirements",
+    "skylight_type_tooltip":"Select an option for skylight",
+    "fp_tooltip":"Edit the FP value as your requirements",
+    "cover_well_light_tooltip":"Specify the skylight percentage"
   },
   "HVACSystem_page": {
     "header": "HVAC System",
@@ -272,7 +293,9 @@
     "hvacSysImg2": "assets/image1.PNG",
     "hvacSysImg3": "assets/image2.PNG",
     "hvacSysImg4": "assets/image3.PNG",
-    "hvacSysImg5": "assets/image4.PNG"
+    "hvacSysImg5": "assets/image4.PNG",
+    "cooling_point_tooltip":"Specify the temperature of the cooling setpoint",
+    "heating_point_tooltip":"Specify the temperature of the heating setpoint"
   },
   "welcome_page": {
     "description": "This CLIP tool allows you to study and evaluate the energy performance of your construction project and its compliance with the Thermal Regulation of New Buildings in Tunisia.",
@@ -306,7 +329,9 @@
     "area_percent": "Percent Area Sum",
     "title2": "Domestic Hot Water System",
     "air_renewal": "* Air Renewal per Hour",
-    "title3": "Domestic Hot Water System"
+    "title3": "Domestic Hot Water System",
+    "area_percent_tooltip":"Specify the total area",
+    "title3_tooltip":"Select an option in the heater type"
   },
   "newproject": {
     "savencont": "Save & Continue",
@@ -323,7 +348,16 @@
     "name": "User Name",
     "email": "Email",
     "status": "Status",
-    "isadmin": "Is Admin"
+    "isadmin": "Is Admin",
+    "add_user":"Add User"
+
+  },
+  "add_Users":{
+    "header":"Add New User",
+    "role":"User Role",
+    "create":"Create",
+    "user":"User",
+    "admin":"Admin"
   },
   "page_top": {
     "profile": "Profile",
@@ -333,28 +367,28 @@
   "addNewProject": {
     "BuildingTypes": {
       "Villa": "Villa",
-      "Appartment": "Appartment",
-      "Private Offices": "Private Offices",
-      "Public Offices": "Public Offices",
-      "Hotels, 3 Stars": "Hotels, 3 Stars",
-      "Hotels, 4 Stars": "Hotels, 4 Stars",
-      "Hotels, 5 Stars": "Hotels, 5 Stars",
-      "Private Hospitals": "Private Hospitals",
-      "Public Hospitals": "Public Hospitals"
+      "Apartment": "Apartment",
+      "Office: Private": "Office: Private",
+      "Office: Public": "Office: Public",
+      "hotelthreestar": "hotelthreestar",
+      "Hotel: FourStar": "Hotel: FourStar",
+      "Hotel: FiveStar": "Hotel: FiveStar",
+      "Hospital:Private": "Hospital:Private",
+      "Hospital:Public": "Hospital:Public"
     }
   },
   "envelop": {
     "ConstructionTypes": {
-      "Wall No Insulation": "Wall No Insulation",
-      "Wall Insulation-Exterior-2cm": "Wall Insulation-Exterior-2cm",
-      "Wall Insulation-Exterior-4cm": "Wall Insulation-Exterior-4cm",
-      "Wall Insulation-Exterior-6cm": "Wall Insulation-Exterior-6cm",
-      "Wall Insulation-Inside-2cm": "Wall Insulation-Inside-2cm",
-      "Wall Insulation-Inside-4cm": "Wall Insulation-Inside-4cm",
-      "Wall Insulation-Inside-6cm": "Wall Insulation-Inside-6cm",
-      "Wall Insulation-medium-2cm": "Wall Insulation-medium-2cm",
-      "Wall Insulation-medium-4cm": "Wall Insulation-medium-4cm",
-      "Wall Insulation-medium-6cm" : "Wall Insulation-medium-6cm",
+      "EWall Cons-NoInsu": "EWall Cons-NoInsu",
+      "EWall Cons-Outside-2cm": "EWall Cons-Outside-2cm",
+      "EWall Cons-Outside-4cm": "EWall Cons-Outside-4cm",
+      "EWall Cons-Outside-6cm": "EWall Cons-Outside-6cm",
+      "EWall Cons-Middle-2cm": "EWall Cons-Middle-2cm",
+      "EWall Cons-Middle-4cm": "EWall Cons-Middle-4cm",
+      "EWall Cons-Middle-6cm": "EWall Cons-Middle-6cm",
+      "EWall Cons-Inside-2cm": "EWall Cons-Inside-2cm",
+      "EWall Cons-Inside-4cm": "EWall Cons-Inside-4cm",
+      "EWall Cons-Inside-6cm" : "EWall Cons-Inside-6cm",
       "create":"Create",
       "Create":"Create",
       "Polystyrene 2cm":"Polystyrene 2cm",
@@ -388,30 +422,30 @@
       "Carpet,rug":"Carpets,rugs"
     },
     "RoofTypes": {
-      "Roof No Insulation": "Roof No Insulation",
-      "Roof Insulation-Exterior-2cm": "Roof Insulation-Exterior-2cm",
-      "Roof Insulation-Exterior-4cm": "Roof Insulation-Exterior-4cm",
-      "Roof Insulation-Exterior-6cm": "Roof Insulation-Exterior-6cm",
-      "Roof Insulation-Inside-2cm": "Roof Insulation-Inside-2cm",
-      "Roof Insulation-Inside-4cm": "Roof Insulation-Inside-4cm",
-      "Roof Insulation-Inside-6cm": "Roof Insulation-Inside-6cm",
-      "Roof Insulation-medium-2cm": "Roof Insulation-medium-2cm",
-      "Roof Insulation-medium-4cm": "Roof Insulation-medium-4cm",
-      "Roof Insulation-medium-6cm" : "Roof Insulation-medium-6cm",
+      "Roof Cons-NoInsu": "Roof Cons-NoInsu",
+      "Roof Cons-Outside-2cm": "Roof Cons-Outside-2cm",
+      "Roof Cons-Outside-4cm": "Roof Cons-Outside-4cm",
+      "Roof Cons-Outside-6cm": "Roof Cons-Outside-6cm",
+      "Roof Cons-Inside-2cm": "Roof Cons-Inside-2cm",
+      "Roof Cons-Inside-4cm": "Roof Cons-Inside-4cm",
+      "Roof Cons-Inside-6cm": "Roof Cons-Inside-6cm",
+      "Roof Cons-Middle-2cm": "Roof Cons-Middle-2cm",
+      "Roof Cons-Middle-4cm": "Roof Cons-Middle-4cm",
+      "Roof Cons-Middle-6cm" : "Roof Cons-Middle-6cm",
       "create":"Create"
     },
     "FloorContactCondition": {
-      "Ground": "Ground",
-      "Air conditioning": "Air conditioning",
-      "Non-air conditioning": "Non-air conditioning"
+      "ground": "ground",
+      "condition": "condition",
+      "uncondition": "uncondition"
     },
     "GlazingTypes": {
       "Single Clear": "Single Clear",
       "Single Bronze": "Single Bronze",
-      "Single low-e": "Single Low-e",
+      "Single Low-e": "Single Low-e",
       "Double Clear": "Double Clear",
       "Double Bronze": "Double Bronze",
-      "Double low-e": "Double Low-e",
+      "Double Low-e": "Double Low-e",
       "create":"create",
       "No selection":"No selection"
     },
@@ -423,8 +457,8 @@
   },
   "space": {
     "WaterSystem": {
-      "Tankless Electric DHW System": "Tankless Electric DHW System",
-      "DHW gas tank system": "DHW gas tank system"
+      "Tankless electric DHW system": "Tankless electric DHW system",
+      "Tank gas-fired DHW system": "DHW gas tank system"
     },"SpaceCond": {
       "Residence-Salon": "Residence-Salon",
       "Apartment-House": "Apartment-House",
@@ -436,17 +470,21 @@
       "Office": "Office",
       "Hall,Washroom,Staircase and " : "Hall,Washroom,Staircase and",
       "Hall,Washroom,Staircase and" : "Hall,Washroom,Staircase and",
+      "Hall,Washroom,Staircase and  " : "Hall,Washroom,Staircase and",
       "Hotel-room" : "Hotel-room",
       "Hospital-Patient Room" : "Hospital-Patient Room"
+      ,
+      "":"",
+      " ":""
     }
   },
   "HVACSystem": {
     "HVACSystemTypes": {
-      "Variable Air Volume System": "Variable Air Volume System",
-      "Monozone System Direct Relax with Baseboards": "Monozone System Direct Relax with Baseboards",
+      "Packaged Variable Air Volume System": "Packaged Variable Air Volume System",
+      "Split System with Baseboard": "Split System with Baseboard",
       "Residential System" : "Residential System",
-      "Single Fan System": "Single Fan System",
-      "Variable Air Volume Central System":"Variable Air Volume Central System"
+      "Fan Coil System": "Fan Coil System",
+      "Variable Air Volume Systemm":"Variable Air Volume Systemm"
     }
   },
   "defaultEditDropDown":{
