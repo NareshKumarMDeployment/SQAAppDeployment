@@ -209,14 +209,20 @@
     "deg": "deg",
     "building_name_tooltip":"Provide a name for your building",
     "building_adress_tooltip":"Provide your building address",
-    "building_type_tooltip":"Choose a type of the building",
+    "building_type_tooltip":"Choose a building type",
     "floor_count_tooltip":"Specify the number of floors",
-    "building_location_tooltip":"Provide the location for your building",
+    "building_location_tooltip":"Provide the location of your building",
     "packaged_area_tooltip":"Provide the area",
     "orientation_tooltip":"Specify the orientation of the building",
-    "floor_height_tooltip":"Specify the height of the floor",
+    "floor_height_tooltip":"Specify the floor to floor height",
     "dimensions_tooltip":"Specify the dimensions",
-    "area_by_floor_tooltip":"Specify the floor area"
+    "area_by_floor_tooltip":"Specify the floor area",
+    "x1_tooltip":"Enter the X1 value",
+    "y1_tooltip":"Enter the Y1 value",
+    "x2_tooltip":"Enter the X2 value which should be smaller than X1",
+    "y2_tooltip":"Enter the Y2 value which should be smaller than Y1",
+    "x3_tooltip":"Enter the X3 value which should be smaller than X2",
+    "y3_tooltip":"Enter the Y3 value which should be smaller than Y2"
   },
   "envelope_page": {
     "title": "Exterior Constructions",
@@ -275,13 +281,13 @@
     "type of glass":"Type of Glass",
     "south_wall_tooltip":"Select a wall type for south wall",
     "roof_tooltip":"Select a roof type for roof construction",
-    "north_wall_tooltip":"Select a wall type for south wall",
+    "north_wall_tooltip":"Select a wall type for north wall",
     "floor_exhibition_tooltip":"Select a floor area type",
-    "east_wall_tooltip":"Select a wall type for south wall",
-    "wall_quest_tooltip":"Select a wall type for south wall",
-    "over_hang_tooltip":"Edit the over hang as your requirements",
+    "east_wall_tooltip":"Select a wall type for east wall",
+    "wall_quest_tooltip":"Select a wall type for west wall",
+    "over_hang_tooltip":"Edit the overhang as per your requirements",
     "skylight_type_tooltip":"Select an option for skylight",
-    "fp_tooltip":"Edit the FP value as your requirements",
+    "fp_tooltip":"Edit the FP value as per your requirements",
     "cover_well_light_tooltip":"Specify the skylight percentage"
   },
   "HVACSystem_page": {
@@ -294,8 +300,8 @@
     "hvacSysImg3": "assets/image2.PNG",
     "hvacSysImg4": "assets/image3.PNG",
     "hvacSysImg5": "assets/image4.PNG",
-    "cooling_point_tooltip":"Specify the temperature of the cooling setpoint",
-    "heating_point_tooltip":"Specify the temperature of the heating setpoint"
+    "cooling_point_tooltip":"Specify the cooling setpoint temperature",
+    "heating_point_tooltip":"Specify the heating setpoint temperature"
   },
   "welcome_page": {
     "description": "This CLIP tool allows you to study and evaluate the energy performance of your construction project and its compliance with the Thermal Regulation of New Buildings in Tunisia.",
@@ -331,7 +337,7 @@
     "air_renewal": "* Air Renewal per Hour",
     "title3": "Domestic Hot Water System",
     "area_percent_tooltip":"Specify the total area",
-    "title3_tooltip":"Select an option in the heater type"
+    "title3_tooltip":"Select an option for the heater type"
   },
   "newproject": {
     "savencont": "Save & Continue",
@@ -472,8 +478,7 @@
       "Hall,Washroom,Staircase and" : "Hall,Washroom,Staircase and",
       "Hall,Washroom,Staircase and  " : "Hall,Washroom,Staircase and",
       "Hotel-room" : "Hotel-room",
-      "Hospital-Patient Room" : "Hospital-Patient Room"
-      ,
+      "Hospital-Patient Room" : "Hospital-Patient Room",
       "":"",
       " ":""
     }

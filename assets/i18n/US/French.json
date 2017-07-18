@@ -187,6 +187,44 @@
     "envelope": "Enveloppe",
     "HVACSystem": "Système CVCA"
   },
+
+  "create_project": {
+    "title": "Informations Générales sur le Projet",
+    "title2": "Détails du Projet",
+    "building_name": "Nom du Bâtiment",
+    "building_name_default_value": "Bâtiment",
+    "building_adress": "Adresse du Bâtiment",
+    "building_adress_default_value": "bâtiment Tunis",
+    "building_type": "Type de Bâtiment",
+    "building_use": "Type du Bâtiment",
+    "building_location": "Emplacement du Bâtiment",
+    "floor_count": "Nombre de Niveaux",
+    "floor": "Etages",
+    "packaged_area": "Superficie Conditionnée",
+    "form_of_building": "Forme du Bâtiment",
+    "orientation": "I'orientation du bâtiment",
+    "floor_height": "Hauteur de I'Etage",
+    "dimensions": "Dimensions",
+    "area_by_floor": "Surface au Sol",
+    "deg": "deg",
+    "building_name_tooltip":"Fournissez un nom pour votre bâtiment",
+    "building_adress_tooltip":"Fournissez votre adresse de bâtiment",
+    "building_type_tooltip":"Choisissez un type de bâtiment",
+    "floor_count_tooltip":"Préciser le nombre d'étages",
+    "building_location_tooltip":"Fournir l'emplacement de votre bâtiment",
+    "packaged_area_tooltip":"Fournir de l'espace",
+    "orientation_tooltip":"Précisez l'orientation du bâtiment",
+    "floor_height_tooltip":"Spécifiez la hauteur du sol au sol",
+    "dimensions_tooltip":"Précisez les dimensions",
+    "area_by_floor_tooltip":"Spécifiez la surface de plancher",
+    "x1_tooltip":"Entrez la valeur X1",
+    "y1_tooltip":"Entrez la valeur Y1",
+    "x2_tooltip":"Entrez la valeur X2 qui devrait être inférieure à X1",
+    "y2_tooltip":"Entrez la valeur Y2 qui devrait être inférieure à Y1",
+    "x3_tooltip":"Entrez la valeur X3 qui devrait être inférieure à X2",
+    "y3_tooltip":"Entrez la valeur Y3 qui devrait être inférieure à Y2"
+  },
+
   "envelope_page":{
     "title":"Constructions de l'Enveloppe du Bâtiment",
     "wall_construction":"Construction du Mur",
@@ -247,41 +285,10 @@
     "floor_exhibition_tooltip":"Sélectionnez un type de surface de plancher",
     "east_wall_tooltip":"Sélectionnez un type de mur pour le mur du est",
     "wall_quest_tooltip":"Sélectionnez un type de mur pour le mur du ouest",
-    "over_hang_tooltip":"Éditez le pare soleil valeur",
+    "over_hang_tooltip":"Modifier le pare soleil selon vos besoins",
     "skylight_type_tooltip":"Sélectionnez une option pour la puits de lumière",
-    "fp_tooltip":"Modifiez la valeur FP en fonction de vos besoins",
-    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière"
-    
-  },
-  "create_project": {
-    "title": "Informations Générales sur le Projet",
-    "title2": "Détails du Projet",
-    "building_name": "Nom du Bâtiment",
-    "building_name_default_value": "Bâtiment",
-    "building_adress": "Adresse du Bâtiment",
-    "building_adress_default_value": "bâtiment Tunis",
-    "building_type": "Type de Bâtiment",
-    "building_use": "Type du Bâtiment",
-    "building_location": "Emplacement du Bâtiment",
-    "floor_count": "Nombre de Niveaux",
-    "floor": "Etages",
-    "packaged_area": "Superficie Conditionnée",
-    "form_of_building": "Forme du Bâtiment",
-    "orientation": "I'orientation du bâtiment",
-    "floor_height": "Hauteur de I'Etage",
-    "dimensions": "Dimensions",
-    "area_by_floor": "Surface au Sol",
-    "deg": "deg",
-    "building_name_tooltip":"Fournissez un nom pour votre bâtiment",
-    "building_adress_tooltip":"Fournissez votre adresse de bâtiment",
-    "building_type_tooltip":"Choisissez un type de bâtiment",
-    "floor_count_tooltip":"Préciser le nombre d'étages",
-    "building_location_tooltip":"Fournir l'emplacement de votre bâtiment",
-    "packaged_area_tooltip":"Fournir de l'espace",
-    "orientation_tooltip":"Précisez l'orientation du bâtiment",
-    "floor_height_tooltip":"Précisez la hauteur du plancher",
-    "dimensions_tooltip":"Précisez les dimensions",
-    "area_by_floor_tooltip":"Spécifiez la surface de plancher"
+    "fp_tooltip":"Modifiez la valeur FP selon vos besoins",
+    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière" 
   },
   "HVACSystem_page": {
     "header": "Système CVCA",
@@ -293,8 +300,8 @@
     "hvacSysImg3": "assets/ResidentialSystem.jpg",
     "hvacSysImg4": "assets/FancoilSystem.jpg",
     "hvacSysImg5": "assets/VavSystem.jpg",
-    "cooling_point_tooltip":"Préciser la température du consigne de refroidissement",
-    "heating_point_tooltip":"Préciser la température du point de consigne de chauffage"
+    "cooling_point_tooltip":"Précisez la température de consigne de refroidissement",
+    "heating_point_tooltip":"Préciser la température de point de consigne de chauffage"
   },
   "welcome_page": {
     "description": "Cet outil CLIP vous permet d'étudier et d'évaluer la performance énergétique de votre projet de construction ainsi que sa conformité à la Réglementation Thermique des Bâtiments Neufs en Tunisie.",
@@ -330,7 +337,7 @@
     "title3": "Type d'Appareil de Chauffage",
     "air_renewal": "*Renouvellement d'Air par Heure",
     "area_percent_tooltip":"Spécifiez la superficie totale",
-    "title3_tooltip":"Sélectionnez une option dans le type de chauffage"
+    "title3_tooltip":"Sélectionnez une option pour le type de chauffage"
   },
   "newproject": {
     "savencont": "Sauvegarder et Continuer",
