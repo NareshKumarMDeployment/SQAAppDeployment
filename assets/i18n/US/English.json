@@ -327,7 +327,7 @@
     "space_type": "Space Type",
     "percent_area": "Percent Area (%)",
     "occupant": "Occupant (m2/person)",
-    "ventilation": "Ventilation (CHM/person)",
+    "ventilation": "Ventilation* (CHM/person)",
     "lighting": "Lighting (W/m2)",
     "plug_load": "Plug Load (W/m2)",
     "space_condition": "Cond. Space",
@@ -509,6 +509,9 @@
   "worktype":{
     "Properties":"Properties",
     "Resistance":"Resistance"
+  },
+  "error_msg":{
+    "projectname_error":"Please enter project name."
   }
 
 }

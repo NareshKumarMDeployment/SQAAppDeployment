@@ -510,5 +510,8 @@
   "worktype":{
     "Properties":"Propriétés",
     "Resistance":"La résistance"
+  },
+  "error_msg":{
+    "projectname_error":"Entrez le nom du projet."
   }
 }
