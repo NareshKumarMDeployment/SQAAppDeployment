@@ -355,7 +355,9 @@
     "email": "Email",
     "status": "Statut",
     "isadmin": "Est-ce que l'administrateur",
-    "add_user":"Ajouter un utilisateur"
+    "add_user":"Ajouter un utilisateur",
+    "delprojsubtitle":"Cet utilisateur sera supprimé de la liste.",
+    "deldeletetitle":"L'utilisateur est supprimé"
   },
   "add_Users":{
     "header":"Ajouter un nouvel utilisateur",

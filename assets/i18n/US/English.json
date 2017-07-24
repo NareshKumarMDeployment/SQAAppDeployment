@@ -355,7 +355,9 @@
     "email": "Email",
     "status": "Status",
     "isadmin": "Is Admin",
-    "add_user":"Add User"
+    "add_user":"Add User",
+    "delprojsubtitle":"This user will be removed from the list.",
+    "deldeletetitle":"The user is removed"
 
   },
   "add_Users":{
