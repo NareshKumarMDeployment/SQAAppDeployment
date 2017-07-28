@@ -127,7 +127,7 @@
     "address": "Adresse",
     "city": "Ville",
     "country": "Pays",
-    "password_mismatcherror":"Erreur"
+    "password_mismatcherror":"Les mots de passe ne correspondent pas"
   },
   "placeHolders": {
     "email": "É-mail ",
@@ -365,7 +365,8 @@
     "role":"Rôle d'utilisateur",
     "create":"Créer",
     "user":"Utilisateur",
-    "admin":"Admin"
+    "admin":"Admin",
+    "submit":"Soumettre"
   },
   "page_top": {
     "profile": "Profil",

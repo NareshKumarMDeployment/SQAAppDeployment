@@ -127,7 +127,7 @@
     "address": "Address",
     "city": "City",
     "country": "Country",
-    "password_mismatcherror":"Error"
+    "password_mismatcherror":"Passwords don't match"
   },
   "placeHolders": {
     "email": "Email",
@@ -366,7 +366,8 @@
     "role":"User Role",
     "create":"Create",
     "user":"User",
-    "admin":"Admin"
+    "admin":"Admin",
+    "submit":"Submit"
   },
   "page_top": {
     "profile": "Profile",
