@@ -450,12 +450,12 @@
       "uncondition": "uncondition"
     },
     "GlazingTypes": {
-      "Single Clear": "Single Clear",
-      "Single Bronze": "Single Bronze",
-      "Single Low-e": "Single Low-e",
-      "Double Clear": "Double Clear",
+      "Simple Claire": "Single Clear",
+      "Simple Bronze": "Single Bronze",
+      "Simple faible-e": "Single Low-e",
+      "Double Claire": "Double Clear",
       "Double Bronze": "Double Bronze",
-      "Double Low-e": "Double Low-e",
+      "Double faible-e": "Double Low-e",
       "create":"create",
       "No selection":"No selection"
     },
@@ -516,6 +516,27 @@
   },
   "error_msg":{
     "projectname_error":"Please enter project name."
+  },
+  "simulationreport":{
+    "projectheader":"Name",
+    "compliancereport":"Performance Compliance Report",
+    "buildingheader":"Building Information",
+    "constructionheader":"Construction Information",
+    "performance":"Performance Analysis",
+    "buildingname":"NAME :",
+    "location":"LOCATION :",
+    "type":"TYPE :",
+    "sector":"SECTOR :",
+    "category":"CATEGORY :",
+    "hotel":"Hotel Grade :",
+    "address":"ADRESSE :",
+    "U_value":"Wall U-Value",
+    "glassvalue":"Glass U-Value",
+    "shading":"Shading Coefficient",
+    "south":"South U",
+    "north":"North U",
+    "East":"East U",
+    "West":"West U"
   }
 
 }

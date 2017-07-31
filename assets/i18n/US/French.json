@@ -517,5 +517,26 @@
   },
   "error_msg":{
     "projectname_error":"Entrez le nom du projet."
+  },
+  "simulationreport":{
+    "projectheader":"Nom",
+    "compliancereport":"Rapport sur la conformité aux performances",
+    "buildingheader":"Informations sur le bâtiment",
+    "constructionheader":"Informations sur la construction",
+    "performance":"Analyse de performance",
+    "buildingname":"NOM :",
+    "location":"EMPLACEMENT :",
+    "type":"TYPE :",
+    "sector":"SECTEUR :",
+    "category":"CATÉGORIE :",
+    "hotel":"Hôtel Grade :",
+    "address":"ADDRESS :",
+    "U_value":"Mur U-valeur",
+    "glassvalue":"Valeur U en verre",
+    "Shading Coefficient":"Coefficient d'ombrage",
+    "south":"Sud U",
+    "north":"Nord U",
+    "East":"Est U",
+    "West":"Ouest U"
   }
 }
