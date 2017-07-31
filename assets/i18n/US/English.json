@@ -450,12 +450,12 @@
       "uncondition": "uncondition"
     },
     "GlazingTypes": {
-      "Simple Claire": "Single Clear",
-      "Simple Bronze": "Single Bronze",
-      "Simple faible-e": "Single Low-e",
-      "Double Claire": "Double Clear",
+      "Single Clear": "Single Clear",
+      "Single Bronze": "Single Bronze",
+      "Single Low-e": "Single Low-e",
+      "Double Clear": "Double Clear",
       "Double Bronze": "Double Bronze",
-      "Double faible-e": "Double Low-e",
+      "Double Low-e": "Double Low-e",
       "create":"create",
       "No selection":"No selection"
     },
