@@ -84,7 +84,8 @@
     "delprojokey":"D'accord",
     "deldeletetitle":"Projet supprimé",
     "name_valid":"Entrez le nom du projet",
-    "org_name_label":"Fournissez un nom pour votre projet"
+    "org_name_label":"Fournissez un nom pour votre projet",
+    "error_msg":"L'utilisateur a été supprimé avec succès"
   },
   "tree_view": {
     "title": "de base",
@@ -348,7 +349,8 @@
     "save":"Sauvegarder",
     "report_error":"Le rapport de simulation n'a pas pu être généré. Vérifiez vos intrants.",
     "report_wait":"Veuillez patienter... Un rapport de simulation est généré.",
-    "wait_error":"Quelque chose s'est mal passé ... Veuillez vérifier votre connexion Internet."
+    "wait_error":"Quelque chose s'est mal passé ... Veuillez vérifier votre connexion Internet.",
+    "Pname_error":"Entrez le nom du projet"
   },
   "admin_page": {
     "header": "Détails de l'utilisateur",
@@ -358,7 +360,8 @@
     "isadmin": "Est-ce que l'administrateur",
     "add_user":"Ajouter un utilisateur",
     "delprojsubtitle":"Cet utilisateur sera supprimé de la liste.",
-    "deldeletetitle":"L'utilisateur est supprimé"
+    "deldeletetitle":"L'utilisateur est supprimé",
+    "email_error":"Le courrier électronique alternatif ne devrait pas être égal au courrier électronique principal"
   },
   "add_Users":{
     "header":"Ajouter un nouvel utilisateur",

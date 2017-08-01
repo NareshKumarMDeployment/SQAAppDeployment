@@ -84,7 +84,8 @@
     "delprojokey":"OK",
     "deldeletetitle":"Project deleted",
     "name_valid":"Please enter the project name",
-    "org_name_label":"Provide a name for your project"
+    "org_name_label":"Provide a name for your project",
+    "error_msg":"User Deleted Successfully"
   },
   "tree_view": {
     "title": "basic",
@@ -348,7 +349,8 @@
     "save":"Save",
     "report_error":"Simulation report could not be generated. Please verify your input.",
     "report_wait":"Please wait... simulation report is being generated",
-    "wait_error":"Something went wrong... Please check your internet connecton."
+    "wait_error":"Something went wrong... Please check your internet connecton.",
+    "Pname_error":"Please enter the project name"
   },
   "admin_page": {
     "header": "User Details",
@@ -358,7 +360,8 @@
     "isadmin": "Is Admin",
     "add_user":"Add User",
     "delprojsubtitle":"This user will be removed from the list.",
-    "deldeletetitle":"The user is removed"
+    "deldeletetitle":"The user is removed",
+    "email_error":"Alternative email should not be equal to primary email"
 
   },
   "add_Users":{
