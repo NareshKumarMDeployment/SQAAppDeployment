@@ -361,7 +361,8 @@
     "add_user":"Ajouter un utilisateur",
     "delprojsubtitle":"Cet utilisateur sera supprimé de la liste.",
     "deldeletetitle":"L'utilisateur est supprimé",
-    "email_error":"Le courrier électronique alternatif ne devrait pas être égal au courrier électronique principal"
+    "email_error":"Le courrier électronique alternatif ne devrait pas être égal au courrier électronique principal",
+    "click":"Double-cliquez pour modifier"
   },
   "add_Users":{
     "header":"Ajouter un nouvel utilisateur",

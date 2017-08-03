@@ -361,7 +361,8 @@
     "add_user":"Add User",
     "delprojsubtitle":"This user will be removed from the list.",
     "deldeletetitle":"The user is removed",
-    "email_error":"Alternative email should not be equal to primary email"
+    "email_error":"Alternative email should not be equal to primary email",
+    "click":"Double click to edit"
 
   },
   "add_Users":{
