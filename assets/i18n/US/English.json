@@ -290,7 +290,11 @@
     "over_hang_tooltip":"Edit the overhang as per your requirements",
     "skylight_type_tooltip":"Select an option for skylight",
     "fp_tooltip":"Edit the FP value as per your requirements",
-    "cover_well_light_tooltip":"Specify the skylight percentage"
+    "cover_well_light_tooltip":"Specify the skylight percentage",
+    "create":"Create",
+    "condcutance_tooltip":"Value should be between[0 to 0.73]",
+    "shading_tooltip":"Value should be between[0 to 0.2]",
+    "visible_tooltip":"Value should be between[0 to 1]"
   },
   "HVACSystem_page": {
     "header": "HVAC System",

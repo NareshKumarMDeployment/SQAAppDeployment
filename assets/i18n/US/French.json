@@ -290,7 +290,11 @@
     "over_hang_tooltip":"Modifier le pare soleil selon vos besoins",
     "skylight_type_tooltip":"Sélectionnez une option pour la puits de lumière",
     "fp_tooltip":"Modifiez la valeur FP selon vos besoins",
-    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière" 
+    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière",
+    "create":"Créer",
+    "condcutance_tooltip":"La valeur doit être entre [0 et 0.73]",
+    "shading_tooltip":"La valeur doit être entre [0 et 0.2]",
+    "visible_tooltip":"La valeur doit être entre [0 et 1]"
   },
   "HVACSystem_page": {
     "header": "Système CVCA",
