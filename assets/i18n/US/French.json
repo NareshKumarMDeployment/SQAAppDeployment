@@ -292,8 +292,8 @@
     "fp_tooltip":"Modifiez la valeur FP selon vos besoins",
     "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière",
     "create":"Créer",
-    "condcutance_tooltip":"La valeur doit être entre [0 et 0.73]",
-    "shading_tooltip":"La valeur doit être entre [0 et 0.2]",
+    "condcutance_tooltip":"La valeur doit être entre [0 et 10]",
+    "shading_tooltip":"La valeur doit être entre [0 et 1]",
     "visible_tooltip":"La valeur doit être entre [0 et 1]"
   },
   "HVACSystem_page": {

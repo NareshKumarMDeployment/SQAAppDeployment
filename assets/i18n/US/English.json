@@ -292,8 +292,8 @@
     "fp_tooltip":"Edit the FP value as per your requirements",
     "cover_well_light_tooltip":"Specify the skylight percentage",
     "create":"Create",
-    "condcutance_tooltip":"Value should be between[0 to 0.73]",
-    "shading_tooltip":"Value should be between[0 to 0.2]",
+    "condcutance_tooltip":"Value should be between[0.0001 to 10]",
+    "shading_tooltip":"Value should be between[0 to 1]",
     "visible_tooltip":"Value should be between[0 to 1]"
   },
   "HVACSystem_page": {
