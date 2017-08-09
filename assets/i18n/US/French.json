@@ -583,5 +583,8 @@
     "address":"Adresse",
     "country":"Pays",
     "company":"Compagnie"
+  },
+  "success_msg":{
+    "success":"Projet créé avec succès"
   }
 }

@@ -584,6 +584,9 @@
     "company":"Company"
 
 
+  },
+  "success_msg":{
+    "success":"Project created successfully"
   }
 
 }
