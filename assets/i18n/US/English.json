@@ -287,7 +287,7 @@
     "floor_exhibition_tooltip":"Select a floor area type",
     "east_wall_tooltip":"Select a wall type for east wall",
     "wall_quest_tooltip":"Select a wall type for west wall",
-    "over_hang_tooltip":"Edit the overhang as per your requirements",
+    "over_hang_tooltip":"Overhang value as per FP",
     "skylight_type_tooltip":"Select an option for skylight",
     "fp_tooltip":"Edit the FP value as per your requirements",
     "cover_well_light_tooltip":"Specify the skylight percentage",
@@ -572,6 +572,18 @@
     "total":"Annual",
     "sourceenergy":"Annual Source Energy",
     "co2emmission":"Annual CO2 Emmission"
+  },
+  "userprofile":{
+    "geninfo":"General Information",
+    "job_title":"Job title",
+    "continfo":"Contact Information",
+    "email":"Email",
+    "altemail":"Alternative Email",
+    "address":"Address",
+    "country":"Country",
+    "company":"Company"
+
+
   }
 
 }
