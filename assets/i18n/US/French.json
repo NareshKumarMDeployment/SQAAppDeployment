@@ -2,7 +2,7 @@
   "login": {
     "title": "S’il vous plaît Connectez-vous",
     "signup_link": "ñ’avez pas de compte? S’inscrire",
-    "email": "É-mail ",
+    "email": "Email ",
     "password": "Mot de passe",
     "sign_in": "S’identifier",
     "forgot_password": "Mot de passe oublié?",
@@ -85,7 +85,11 @@
     "deldeletetitle":"Projet supprimé",
     "name_valid":"Entrez le nom du projet",
     "org_name_label":"Fournissez un nom pour votre projet",
-    "error_msg":"L'utilisateur a été supprimé avec succès"
+    "error_msg":"L'utilisateur a été supprimé avec succès",
+    "trigger":"Cliquez ici pour générer le rapport de simulation",
+    "rowToolTip":"Double-cliquez pour modifier le projet",
+    "delete_tooltip":"Supprimer le projet",
+    "report_tooltip":"Cliquez pour afficher le rapport de projet"
   },
   "tree_view": {
     "title": "de base",
@@ -128,7 +132,9 @@
     "address": "Adresse",
     "city": "Ville",
     "country": "Pays",
-    "password_mismatcherror":"Les mots de passe ne correspondent pas"
+    "password_mismatcherror":"Les mots de passe ne correspondent pas",
+    "success":"Mise à jour de l'utilisateur avec succès",
+    "reg_success":"L'utilisateur s'est enregistré avec succès"
   },
   "placeHolders": {
     "email": "É-mail ",
@@ -145,7 +151,9 @@
     "building": "Bâtiment",
     "building_tunis": "Adresse",
     "private_offices": "Bureaux privés",
-    "tunis": "TUNIS"
+    "tunis": "TUNIS",
+    "cur_password":"Mot de passe actuel",
+    "new_password":"Nouveau mot de passe"
   },
   "landing": {
     "title1": "CLIP-Tunisie",
@@ -168,7 +176,11 @@
     "email": "É-mail secondaire *",
     "password": "Mot de passe *",
     "confirm_password": "Confirmez le mot de passe *",
-    "change_password": "réinitialiser le mot de passe"
+    "change_password": "réinitialiser le mot de passe",
+    "currentpwd":"Mot de passe actuel *",
+    "header":"Changer le mot de passe",
+    "new_password":"Nouveau mot de passe *",
+    "confirmnew_password":"Confirmer le mot de passe *"
   },
   "view_project": {
     "title": "Projets",
@@ -213,9 +225,9 @@
     "building_adress_tooltip":"Fournissez votre adresse de bâtiment",
     "building_type_tooltip":"Choisissez un type de bâtiment",
     "floor_count_tooltip":"Préciser le nombre d'étages",
-    "building_location_tooltip":"Fournir l'emplacement de votre bâtiment",
-    "packaged_area_tooltip":"Fournir de l'espace",
-    "orientation_tooltip":"Précisez l'orientation du bâtiment",
+    "building_location_tooltip":"Choisissez l'emplacement du bâtiment",
+    "packaged_area_tooltip":"Fournir une zone climatisée",
+    "orientation_tooltip":"Spécifiez la valeur comprise entre -360 et +360",
     "floor_height_tooltip":"Spécifiez la hauteur du sol au sol",
     "dimensions_tooltip":"Précisez les dimensions",
     "area_by_floor_tooltip":"Spécifiez la surface de plancher",
@@ -281,20 +293,29 @@
     "shading coefficient":"Coefficient d'Ombrage",
     "visible transmission":"Transmission Visible",
     "type of glass":"Type de Verre",
-    "south_wall_tooltip":"Sélectionnez un type de mur pour le mur du sud",
-    "roof_tooltip":"Sélectionnez un type de toit pour la construction de toit",
-    "north_wall_tooltip":"Sélectionnez un type de mur pour le mur du nord",
+    "south_wall_tooltip":"Sélectionnez le type de mur Sud",
+    "roof_tooltip":"Sélectionnez un type de toit",
+    "north_wall_tooltip":"Sélectionnez le type de mur Nord",
     "floor_exhibition_tooltip":"Sélectionnez un type de surface de plancher",
-    "east_wall_tooltip":"Sélectionnez un type de mur pour le mur du est",
-    "wall_quest_tooltip":"Sélectionnez un type de mur pour le mur du ouest",
+    "east_wall_tooltip":"Sélectionnez le type de mur Est",
+    "wall_quest_tooltip":"Sélectionnez le type de mur Ouest",
     "over_hang_tooltip":"Valeur de dépassement selon FP",
-    "skylight_type_tooltip":"Sélectionnez une option pour la puits de lumière",
+    "skylight_type_tooltip":"Sélectionnez le type de la puits de lumière",
     "fp_tooltip":"Modifiez la valeur FP selon vos besoins",
-    "cover_well_light_tooltip":"Préciser le pourcentage de puits de lumière",
+    "cover_well_light_tooltip":"Entrez la valeur pour la couverture du puit de lumière",
     "create":"Créer",
     "condcutance_tooltip":"La valeur doit être entre [0 et 10]",
     "shading_tooltip":"La valeur doit être entre [0 et 1]",
-    "visible_tooltip":"La valeur doit être entre [0 et 1]"
+    "visible_tooltip":"La valeur doit être entre [0 et 1]",
+    "construction_tooltip":"Créer / Sélectionner un type de construction",
+    "construcname_tooltip":"Fournir un nom de construction",
+    "construspecific_tooltip":"Sélectionnez un type de méthode de spécification",
+    "construroughness_tooltip":"La valeur de rugosité de surface doit être comprise entre 1 et 6",
+    "construexterior_tooltip":"La valeur absorbante doit être comprise entre 0.0000 et 1.0000",    
+    "construnewlayer_tooltip":"Le nom de la couche et le nom de la construction doivent être différents",
+    "construlayername_tooltip":"Nom de la couche de construction",
+    "construvalue_tooltip":"U valeur calculée selon les entrées",
+    "construglass_tooltip":"La valeur doit être entre [1 et 10]"
   },
   "HVACSystem_page": {
     "header": "Système CVCA",
@@ -354,7 +375,11 @@
     "report_error":"Le rapport de simulation n'a pas pu être généré. Vérifiez vos intrants.",
     "report_wait":"Veuillez patienter... Un rapport de simulation est généré.",
     "wait_error":"Quelque chose s'est mal passé ... Veuillez vérifier votre connexion Internet.",
-    "Pname_error":"Entrez le nom du projet"
+    "Pname_error":"Entrez le nom du projet",
+    "close":"Fermer",
+    "report_wait1":"Veuillez patienter ... tout en sauvegardant les détails du projet",
+    "saveAsProj":"Veuillez modifier le nom du projet",
+    "changePname":"Nom du Projet"
   },
   "admin_page": {
     "header": "Détails de l'utilisateur",
@@ -366,7 +391,8 @@
     "delprojsubtitle":"Cet utilisateur sera supprimé de la liste.",
     "deldeletetitle":"L'utilisateur est supprimé",
     "email_error":"Le courrier électronique alternatif ne devrait pas être égal au courrier électronique principal",
-    "click":"Double-cliquez pour modifier"
+    "click":"Double-cliquez pour modifier",
+    "delete_tooltip":"Supprimer l'utilisateur"
   },
   "add_Users":{
     "header":"Ajouter un nouvel utilisateur",
@@ -374,7 +400,8 @@
     "create":"Créer",
     "user":"Utilisateur",
     "admin":"Admin",
-    "submit":"Soumettre"
+    "submit":"Soumettre",
+    "edit":"Editer le profil"
   },
   "page_top": {
     "profile": "Profil",
@@ -406,7 +433,7 @@
       "EWall Cons-Middle-6cm": "Mur Isolation-Milieu-6cm",
       "EWall Cons-Inside-2cm": "Mur Isolation-Intérieure-2cm",
       "EWall Cons-Inside-4cm": "Mur Isolation-Intérieure-4cm",
-      "EWall Cons-Inside-6cm" : "Mur Isolation-Intérieure-6cm",
+      "EWall Cons-Inside-6cm" : "Mur Isolation-Intérieure-6cm", 
       "create":"Créer",
       "Create":"Créer",
       "polystyrene 2cm":"polystyrene 2cm",
@@ -439,6 +466,18 @@
       "Produit d'Etanchéité Caoutchouc":"Produit d'Etanchéité Caoutchouc",
       "Moquette, Tabis":"Moquette, Tabis"
     },
+    "ConstructionLayers": {
+      "EWall Cons Layers-NoInsu" : "Mur Cons-Marcotte-Pas d’Isolation",
+      "EWall Cons Layers-Outside-2cm" : "Mur Cons-Marcotte-Isolation-Extérieure-2cm",
+      "EWall Cons Layers-Outside-4cm" : "Mur Cons-Marcotte-Isolation-Extérieure-4cm",
+      "EWall Cons Layers-Outside-6cm" : "Mur Cons-Marcotte-Isolation-Extérieure-6cm",
+      "EWall Cons Layers-Middle-2cm" : "Mur Cons-Marcotte-Isolation-Intérieure-2cm",
+      "EWall Cons Layers-Middle-4cm" : "Mur Cons-Marcotte-Isolation-Intérieure-4cm",
+      "EWall Cons Layers-Middle-6cm" : "Mur Cons-Marcotte-Isolation-Intérieure-6cm",
+      "EWall Cons Layers-Inside-2cm" : "Mur Cons-Marcotte-Isolation-Milieu-2cm",
+      "EWall Cons Layers-Inside-4cm" : "Mur Cons-Marcotte-Isolation-Milieu-4cm",
+      "EWall Cons Layers-Inside-6cm" : "Mur Cons-Marcotte-Isolation-Milieu-6cm"
+    },
     "RoofTypes": {
       "Roof Cons-NoInsu": "Toit Pas d’Isolation",
       "Roof Cons-Outside-2cm": "Toit Isolation-Extérieure-2cm",
@@ -451,6 +490,18 @@
       "Roof Cons-Middle-4cm": "Toit Isolation-Milieu-4cm",
       "Roof Cons-Middle-6cm" : "Toit Isolation-Milieu-6cm",
       "create":"Créer"
+    },
+    "RoofLayers":{
+      "Roof Cons Layers-NoInsu" : "Toit Cons-Marcotte-Pas d’Isolation",
+      "Roof Cons Layers-Outside-2cm" : "Toit Cons-Marcotte-Isolation-Milieu-2cm",
+      "Roof Cons Layers-Outside-4cm" : "Toit Cons-Marcotte-Isolation-Milieu-4cm",
+      "Roof Cons Layers-Outside-6cm" : "Toit Cons-Marcotte-Isolation-Milieu-6cm",
+      "Roof Cons Layers-Inside-2cm" : "Toit Cons-Marcotte-Isolation-Intérieure-2cm",
+      "Roof Cons Layers-Inside-4cm" : "Toit Cons-Marcotte-Isolation-Intérieure-4cm",
+      "Roof Cons Layers-Inside-6cm" : "Toit Cons-Marcotte-Isolation-Intérieure-6cm",
+      "Roof Cons Layers-Middle-2cm" : "Toit Cons-Marcotte-Isolation-Extérieure-2cm",
+      "Roof Cons Layers-Middle-4cm" : "Toit Cons-Marcotte-Isolation-Extérieure-4cm",
+      "Roof Cons Layers-Middle-6cm" : "Toit Cons-Marcotte-Isolation-Extérieure-6cm"
     },
     "FloorContactCondition": {
       "ground": "Sol",
@@ -471,6 +522,30 @@
       "No": "Aucun",
       "Dish": "Plat",
       "Dome": "Dôme"
+    },
+    "ConstructionLayers": {
+       "EWall Cons Layers-NoInsu":"Mur Cons-Marcotte-Pas d’Isolation",
+      "EWall Cons Layers-Outside-2cm":"Mur Cons-Marcotte-Isolation-Extérieure-2cm",
+      "EWall Cons Layers-Outside-4cm":"Mur Cons-Marcotte-Isolation-Extérieure-4cm",
+      "EWall Cons Layers-Outside-6cm":"Mur Cons-Marcotte-Isolation-Extérieure-6cm",
+      "EWall Cons Layers-Middle-2cm":"Mur Cons-Marcotte-Isolation-Milieu-2cm",
+      "EWall Cons Layers-Middle-4cm":"Mur Cons-Marcotte-Isolation-Milieu-4cm",
+      "EWall Cons Layers-Middle-6cm":"Mur Cons-Marcotte-Isolation-Milieu-6cm",
+      "EWall Cons Layers-Inside-2cm":"Mur Cons-Marcotte-Isolation-Intérieure-2cm",
+      "EWall Cons Layers-Inside-4cm":"Mur Cons-Marcotte-Isolation-Intérieure-4cm",
+      "EWall Cons Layers-Inside-6cm":"Mur Cons-Marcotte-Isolation-Intérieure-6cm"
+    },
+    "RoofLayers": {
+      "Roof Cons Layers-NoInsu":"Toit Cons-Marcotte-Pas d'Isolation",
+      "Roof Cons Layers-Outside-2cm":"Toit Cons-Marcotte-Isolation-Extérieure-2cm",
+      "Roof Cons Layers-Outside-4cm":"Toit Cons-Marcotte-Isolation-Extérieure-4cm",
+      "Roof Cons Layers-Outside-6cm":"Toit Cons-Marcotte-Isolation-Extérieure-6cm",
+      "Roof Cons Layers-Inside-2cm":"Toit Cons-Marcotte-Isolation-Intérieure-2cm",
+      "Roof Cons Layers-Inside-4cm":"Toit Cons-Marcotte-Isolation-Intérieure-4cm",
+      "Roof Cons Layers-Inside-6cm":"Toit Cons-Marcotte-Isolation-Intérieure-6cm",
+      "Roof Cons Layers-Middle-2cm":"Toit Cons-Marcotte-Isolation-Milieu-2cm",
+      "Roof Cons Layers-Middle-4cm":"Toit Cons-Marcotte-Isolation-Milieu-4cm",
+      "Roof Cons Layers-Middle-6cm":"Toit Cons-Marcotte-Isolation-Milieu-6cm"
     }
   },
   "space": {
@@ -575,16 +650,23 @@
     "co2emmission":"CO2 Emis par Année"
   },
   "userprofile":{
-    "geninfo":"Informations générales",
+    "geninfo":"Informations Générales",
     "job_title":"Métier",
     "continfo":"Informations de contact",
     "email":"Email",
-    "altemail":"Email alternatif",
+    "altemail":"E-mail Secondaire",
     "address":"Adresse",
     "country":"Pays",
-    "company":"Compagnie"
+    "company":"Compagnie",
+    "pic_change":"Changer l'image",
+    "edit":"Modifier"
   },
   "success_msg":{
-    "success":"Projet créé avec succès"
+    "success":"Le projet a été enregistré avec succès"
+  },
+  "buttonDropDown":{
+    "output":"Résultat",
+    "report":"Rapport",
+    "inpFile":"INP Fichier"
   }
 }

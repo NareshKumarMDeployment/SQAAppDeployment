@@ -85,7 +85,11 @@
     "deldeletetitle":"Project deleted",
     "name_valid":"Please enter the project name",
     "org_name_label":"Provide a name for your project",
-    "error_msg":"User Deleted Successfully"
+    "error_msg":"User Deleted Successfully",
+    "trigger":"Click here to generate the simulation report",
+    "rowToolTip":"Double click to edit the project",
+    "delete_tooltip":"Delete project",
+    "report_tooltip":"Click to view the project report"
   },
   "tree_view": {
     "title": "basic",
@@ -128,7 +132,9 @@
     "address": "Address",
     "city": "City",
     "country": "Country",
-    "password_mismatcherror":"Passwords don't match"
+    "password_mismatcherror":"Passwords don't match",
+    "success":"User updated successfully",
+    "reg_success":"User registered successfully"
   },
   "placeHolders": {
     "email": "Email",
@@ -145,7 +151,9 @@
     "building": "Building",
     "building_tunis": "Address",
     "private_offices": "Private Offices",
-    "tunis": "TUNIS"
+    "tunis": "TUNIS",
+    "cur_password":"Current Password",
+    "new_password":"New Password"
   },
   "landing": {
     "title1": "CLIP-Tunisie",
@@ -168,7 +176,11 @@
     "email": "Alternate Email *",
     "password": "Password *",
     "confirm_password": "Confirm Password *",
-    "change_password": "Reset Password"
+    "change_password": "Reset Password",
+    "currentpwd":"Current Password *",
+    "header":"Change Password",
+    "new_password":"New Password *",
+    "confirmnew_password":"Confirm New Password *"
   },
   "view_project": {
     "title": "Projects",
@@ -213,9 +225,9 @@
     "building_adress_tooltip":"Provide your building address",
     "building_type_tooltip":"Choose a building type",
     "floor_count_tooltip":"Specify the number of floors",
-    "building_location_tooltip":"Provide the location of your building",
-    "packaged_area_tooltip":"Provide the area",
-    "orientation_tooltip":"Specify the orientation of the building",
+    "building_location_tooltip":"Choose building location",
+    "packaged_area_tooltip":"Provide air-conditioned area",
+    "orientation_tooltip":"Specify the value between -360 to +360",
     "floor_height_tooltip":"Specify the floor to floor height",
     "dimensions_tooltip":"Specify the dimensions",
     "area_by_floor_tooltip":"Specify the floor area",
@@ -281,21 +293,30 @@
     "shading coefficient":"Shading Coefficient",
     "visible transmission":"Visible Transmission",
     "type of glass":"Type of Glass",
-    "south_wall_tooltip":"Select a wall type for south wall",
-    "roof_tooltip":"Select a roof type for roof construction",
-    "north_wall_tooltip":"Select a wall type for north wall",
+    "south_wall_tooltip":"Select South wall type",
+    "roof_tooltip":"Select a Roof type",
+    "north_wall_tooltip":"Select North wall type",
     "floor_exhibition_tooltip":"Select a floor area type",
-    "east_wall_tooltip":"Select a wall type for east wall",
-    "wall_quest_tooltip":"Select a wall type for west wall",
+    "east_wall_tooltip":"Select East wall type",
+    "wall_quest_tooltip":"Select West wall type",
     "over_hang_tooltip":"Overhang value as per FP",
-    "skylight_type_tooltip":"Select an option for skylight",
+    "skylight_type_tooltip":"Select skylight type",
     "fp_tooltip":"Edit the FP value as per your requirements",
-    "cover_well_light_tooltip":"Specify the skylight percentage",
+    "cover_well_light_tooltip":"Enter the value for cover of well of light",
     "create":"Create",
     "condcutance_tooltip":"Value should be between[0.0001 to 10]",
     "shading_tooltip":"Value should be between[0 to 1]",
-    "visible_tooltip":"Value should be between[0 to 1]"
-  },
+    "visible_tooltip":"Value should be between[0 to 1]",
+    "construction_tooltip":"Create/Select any construction type ",
+    "construcname_tooltip":"Provide a construction name",
+    "construspecific_tooltip":"Select a specification method type",
+    "construroughness_tooltip":"Surface roughness value should be between 1 to 6",
+    "construexterior_tooltip":"Absorbent value should be between 0.0000 to 1.0000",
+    "construnewlayer_tooltip":"Layer name and construction name should be different",
+    "construlayername_tooltip":"Construction layer name",
+    "construvalue_tooltip":"U value calculated as per the inputs",
+    "construglass_tooltip":"Value should be between[1 to 10]"
+  }, 
   "HVACSystem_page": {
     "header": "HVAC System",
     "HVAC_system": "HVAC System",
@@ -354,7 +375,11 @@
     "report_error":"Simulation report could not be generated. Please verify your input.",
     "report_wait":"Please wait... simulation report is being generated",
     "wait_error":"Something went wrong... Please check your internet connecton.",
-    "Pname_error":"Please enter the project name"
+    "Pname_error":"Please enter the Project Name",
+    "close":"Close",
+    "report_wait1":"Please wait... while saving project details",
+    "saveAsProj":"Please change the project name",
+    "changePname":"Project Name"
   },
   "admin_page": {
     "header": "User Details",
@@ -366,8 +391,8 @@
     "delprojsubtitle":"This user will be removed from the list.",
     "deldeletetitle":"The user is removed",
     "email_error":"Alternative email should not be equal to primary email",
-    "click":"Double click to edit"
-
+    "click":"Double click to edit",
+    "delete_tooltip":"Delete user"
   },
   "add_Users":{
     "header":"Add New User",
@@ -375,7 +400,8 @@
     "create":"Create",
     "user":"User",
     "admin":"Admin",
-    "submit":"Submit"
+    "submit":"Submit",
+    "edit":"Edit Profile"
   },
   "page_top": {
     "profile": "Profile",
@@ -439,6 +465,18 @@
       "Produit d'Etanchéité Caoutchouc":"Produit d'Etanchéité Caoutchouc",
       "Moquette, Tabis":"Moquette, Tabis"
     },
+    "ConstructionLayers": {
+      "EWall Cons Layers-NoInsu" : "EWall Cons Layers-NoInsu",
+      "EWall Cons Layers-Outside-2cm" : "EWall Cons Layers-Outside-2cm",
+      "EWall Cons Layers-Outside-4cm" : "EWall Cons Layers-Outside-4cm",
+      "EWall Cons Layers-Outside-6cm" : "EWall Cons Layers-Outside-6cm",
+      "EWall Cons Layers-Middle-2cm" : "EWall Cons Layers-Middle-2cm",
+      "EWall Cons Layers-Middle-4cm" : "EWall Cons Layers-Middle-4cm",
+      "EWall Cons Layers-Middle-6cm" : "EWall Cons Layers-Middle-6cm",
+      "EWall Cons Layers-Inside-2cm" : "EWall Cons Layers-Inside-2cm",
+      "EWall Cons Layers-Inside-4cm" : "EWall Cons Layers-Inside-4cm",
+      "EWall Cons Layers-Inside-6cm" : "EWall Cons Layers-Inside-6cm"
+    },
     "RoofTypes": {
       "Roof Cons-NoInsu": "Roof Cons-NoInsu",
       "Roof Cons-Outside-2cm": "Roof Cons-Outside-2cm",
@@ -451,6 +489,18 @@
       "Roof Cons-Middle-4cm": "Roof Cons-Middle-4cm",
       "Roof Cons-Middle-6cm" : "Roof Cons-Middle-6cm",
       "create":"Create"
+    },
+    "RoofLayers":{
+      "Roof Cons Layers-NoInsu" : "Roof Cons Layers-NoInsu",
+      "Roof Cons Layers-Outside-2cm" : "Roof Cons Layers-Outside-2cm",
+      "Roof Cons Layers-Outside-4cm" : "Roof Cons Layers-Outside-4cm",
+      "Roof Cons Layers-Outside-6cm" : "Roof Cons Layers-Outside-6cm",
+      "Roof Cons Layers-Inside-2cm" : "Roof Cons Layers-Inside-2cm",
+      "Roof Cons Layers-Inside-4cm" : "Roof Cons Layers-Inside-4cm",
+      "Roof Cons Layers-Inside-6cm" : "Roof Cons Layers-Inside-6cm",
+      "Roof Cons Layers-Middle-2cm" : "Roof Cons Layers-Middle-2cm",
+      "Roof Cons Layers-Middle-4cm" : "Roof Cons Layers-Middle-4cm",
+      "Roof Cons Layers-Middle-6cm" : "Roof Cons Layers-Middle-6cm"
     },
     "FloorContactCondition": {
       "ground": "ground",
@@ -471,6 +521,30 @@
       "No": "No",
       "Dish": "Dish",
       "Dome": "Dome"
+    },
+    "ConstructionLayers": {
+      "EWall Cons Layers-NoInsu":"EWall Cons Layers-NoInsu",
+      "EWall Cons Layers-Outside-2cm":"EWall Cons Layers-Outside-2cm",
+      "EWall Cons Layers-Outside-4cm":"EWall Cons Layers-Outside-4cm",
+      "EWall Cons Layers-Outside-6cm":"EWall Cons Layers-Outside-6cm",
+      "EWall Cons Layers-Middle-2cm":"EWall Cons Layers-Middle-2cm",
+      "EWall Cons Layers-Middle-4cm":"EWall Cons Layers-Middle-4cm",
+      "EWall Cons Layers-Middle-6cm":"EWall Cons Layers-Middle-6cm",
+      "EWall Cons Layers-Inside-2cm":"EWall Cons Layers-Inside-2cm",
+      "EWall Cons Layers-Inside-4cm":"EWall Cons Layers-Inside-4cm",
+      "EWall Cons Layers-Inside-6cm":"EWall Cons Layers-Inside-6cm"
+    },
+    "RoofLayers": {      
+      "Roof Cons Layers-NoInsu":"Roof Cons Layers-NoInsu",
+      "Roof Cons Layers-Outside-2cm":"Roof Cons Layers-Outside-2cm",
+      "Roof Cons Layers-Outside-4cm":"Roof Cons Layers-Outside-4cm",
+      "Roof Cons Layers-Outside-6cm":"Roof Cons Layers-Outside-6cm",
+      "Roof Cons Layers-Inside-2cm":"Roof Cons Layers-Inside-2cm",
+      "Roof Cons Layers-Inside-4cm":"Roof Cons Layers-Inside-4cm",
+      "Roof Cons Layers-Inside-6cm":"Roof Cons Layers-Inside-6cm",
+      "Roof Cons Layers-Middle-2cm":"Roof Cons Layers-Middle-2cm",
+      "Roof Cons Layers-Middle-4cm":"Roof Cons Layers-Middle-4cm",
+      "Roof Cons Layers-Middle-6cm":"Roof Cons Layers-Middle-6cm"
     }    
   },
   "space": {
@@ -515,7 +589,7 @@
     "thickness":"Thickness",
     "conductivity":"Conductivity",
     "density":"Density",
-    "specific_heat":"specific heat",
+    "specific_heat":"Specific heat",
     "resistance":"Resistance"
   },
   "worktype":{
@@ -575,18 +649,24 @@
   },
   "userprofile":{
     "geninfo":"General Information",
-    "job_title":"Job title",
+    "job_title":"Job Title",
     "continfo":"Contact Information",
     "email":"Email",
-    "altemail":"Alternative Email",
+    "altemail":"Alternate Email",
     "address":"Address",
     "country":"Country",
-    "company":"Company"
-
-
+    "company":"Company",
+    "pic_change":"Change picture",
+    "edit":"Edit"
   },
   "success_msg":{
-    "success":"Project created successfully"
+    "success":"Project saved successfully"
+  },
+  "buttonDropDown":{
+    "output":"Output",
+    "report":"Report",
+    "inpFile":"INP File"
   }
+
 
 }
