@@ -217,6 +217,7 @@
     "packaged_area": "Superficie Conditionnée",
     "form_of_building": "Forme du Bâtiment",
     "orientation": "I'orientation du bâtiment",
+    "building_height":"Hauteur du bâtiment",
     "floor_height": "Hauteur de I'Etage",
     "dimensions": "Dimensions",
     "area_by_floor": "Surface au Sol",
@@ -288,7 +289,7 @@
     "ok":"D'accord",
     "cancel":"Annuler",
     "save":"Sauvegarder",
-    "name":"nom",
+    "name":"Nom",
     "conductance of glass":"Conductance du Verre",
     "shading coefficient":"Coefficient d'Ombrage",
     "visible transmission":"Transmission Visible",
@@ -315,7 +316,15 @@
     "construnewlayer_tooltip":"Le nom de la couche et le nom de la construction doivent être différents",
     "construlayername_tooltip":"Nom de la couche de construction",
     "construvalue_tooltip":"U valeur calculée selon les entrées",
-    "construglass_tooltip":"La valeur doit être entre [1 et 10]"
+    "construglass_tooltip":"La valeur doit être entre [1 et 10]",
+    "specificheat_tooltip":"Spécifiez la chaleur spécifique",
+    "density_tooltip":"Préciser la densité",
+    "conductive_tooltip":"Spécifier la conductivité",
+    "thickness_tooltip":"Précisez l'épaisseur",
+    "worktype_tooltip":"Choisissez un type de travail",
+    "proname_tooltip":"Entrez le nom du produit",
+    "construname_tooltip":"Fournir le nom du verre",
+    "glassUvalue":"Valeur U"
   },
   "HVACSystem_page": {
     "header": "Système CVCA",
@@ -350,7 +359,7 @@
     "octadecagon": "Octadécagone"
   },
   "space_tab": {
-    "title": "Espace État",
+    "title": "Conditions Règlementaires",
     "space_type": "Vocation de I'Espace",
     "percent_area": "Pourcentage Superficie (%)",
     "occupant": "Occupation Maximale (m2/pers.)",
@@ -369,7 +378,7 @@
   "newproject": {
     "savencont": "Sauvegarder et Continuer",
     "save_as": "Sauvegarder  Sous",
-    "submit": "Soumettre",
+    "submit": "Simuler",
     "clear": "Clair",
     "save":"Sauvegarder",
     "report_error":"Le rapport de simulation n'a pas pu être généré. Vérifiez vos intrants.",

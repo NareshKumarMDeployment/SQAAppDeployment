@@ -217,6 +217,7 @@
     "packaged_area": "Air-conditioned area",
     "form_of_building": "Building Shape",
     "orientation": "Building orientation",
+    "building_height":"Height of the building",
     "floor_height": "Floor-to-Floor Height",
     "dimensions": "Dimensions",
     "area_by_floor": "Floor area",
@@ -315,7 +316,15 @@
     "construnewlayer_tooltip":"Layer name and construction name should be different",
     "construlayername_tooltip":"Construction layer name",
     "construvalue_tooltip":"U value calculated as per the inputs",
-    "construglass_tooltip":"Value should be between[1 to 10]"
+    "construglass_tooltip":"Value should be between[1 to 10]",
+    "specificheat_tooltip":"Specify spcific heat",
+    "density_tooltip":"Specify density",
+    "conductive_tooltip":"Specify conductivity",
+    "thickness_tooltip":"Specify the thickness",
+    "worktype_tooltip":"Select a type of work",
+    "proname_tooltip":"Enter the product name",
+    "construname_tooltip":"Provide the glass name",
+    "glassUvalue":"U-value"
   }, 
   "HVACSystem_page": {
     "header": "HVAC System",
@@ -369,7 +378,7 @@
   "newproject": {
     "savencont": "Save & Continue",
     "save_as": "Save As",
-    "submit": "Submit",
+    "submit": "Simulate",
     "clear": "Clear",
     "save":"Save",
     "report_error":"Simulation report could not be generated. Please verify your input.",
