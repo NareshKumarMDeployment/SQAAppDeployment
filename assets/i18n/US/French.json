@@ -89,7 +89,8 @@
     "trigger":"Cliquez ici pour générer le rapport de simulation",
     "rowToolTip":"Double-cliquez pour modifier le projet",
     "delete_tooltip":"Supprimer le projet",
-    "report_tooltip":"Cliquez pour afficher le rapport de projet"
+    "report_tooltip":"Cliquez pour afficher le rapport de projet",
+    "allow_Admin":"Examen d'administration"
   },
   "tree_view": {
     "title": "de base",
@@ -237,7 +238,8 @@
     "x2_tooltip":"Entrez la valeur X2 qui devrait être inférieure à X1",
     "y2_tooltip":"Entrez la valeur Y2 qui devrait être inférieure à Y1",
     "x3_tooltip":"Entrez la valeur X3 qui devrait être inférieure à X2",
-    "y3_tooltip":"Entrez la valeur Y3 qui devrait être inférieure à Y2"
+    "y3_tooltip":"Entrez la valeur Y3 qui devrait être inférieure à Y2",
+    "location_name":"Délégation"
   },
 
   "envelope_page":{

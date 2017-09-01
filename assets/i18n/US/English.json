@@ -89,7 +89,8 @@
     "trigger":"Click here to generate the simulation report",
     "rowToolTip":"Double click to edit the project",
     "delete_tooltip":"Delete project",
-    "report_tooltip":"Click to view the project report"
+    "report_tooltip":"Click to view the project report",
+    "allow_Admin":"Admin Review"
   },
   "tree_view": {
     "title": "basic",
@@ -237,7 +238,8 @@
     "x2_tooltip":"Enter the X2 value which should be smaller than X1",
     "y2_tooltip":"Enter the Y2 value which should be smaller than Y1",
     "x3_tooltip":"Enter the X3 value which should be smaller than X2",
-    "y3_tooltip":"Enter the Y3 value which should be smaller than Y2"
+    "y3_tooltip":"Enter the Y3 value which should be smaller than Y2",
+    "location_name":"Delegation"
   },
   "envelope_page": {
     "title": "Exterior Constructions",
