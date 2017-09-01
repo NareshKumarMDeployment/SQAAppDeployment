@@ -92,7 +92,7 @@ function drawHorizontalGroupBarChartChart(config) {
             return d[key];
         });
     });
-    // console.log(maxTicks);
+    console.log(maxTicks);
     var element = g.append("g")
         .selectAll("g")
         .data(data)
@@ -106,7 +106,7 @@ function drawHorizontalGroupBarChartChart(config) {
             return keys.map(function (key) {
                 dataPoints[ii] = x(d[key]);
                 ii++;
-                // console.log(x(d[key]));
+                console.log(x(d[key]));
                 return { key: key, value: d[key], index: key + "_" + i + "_" + d[yAxis] };
             });
         })
@@ -184,7 +184,7 @@ function drawHorizontalGroupBarChartChart(config) {
         .text(label.yAxis);
 
     var yVal = 229, iInt = -2;
-    // console.log(dataPoints);
+    console.log(dataPoints);
     g.selectAll(".text")  		
         .data(data)
         .enter()
